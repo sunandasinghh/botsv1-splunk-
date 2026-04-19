@@ -10,3 +10,12 @@ The ans is 40.80.148.42 as we cannot take ip address from internal range. Extern
 
 
 ![Alt text](https://github.com/sunandasinghh/botsv1-splunk-/blob/4c463819f98304f09b73eda184dcd931c88003c1/web-defacement-investigation/web-defacement-investigation-q1.jpeg)
+
+
+2.What company created the web vulnerability scanner used by Po1s0n1vy? Type the company name.
+
+to look for the scanner that is used, look at the user agents feild. In this case http.http_user_agent.
+Here there is a Acunetix_wvs_security_test, Acunetix is the ans.
+
+
+<img width="1280" height="620" alt="web-defacement-investigation-ans2" src="https://github.com/user-attachments/assets/d9f98b1f-0595-46da-afc8-e217b4295699" />
